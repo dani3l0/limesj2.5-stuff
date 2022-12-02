@@ -1,0 +1,14 @@
+On fw 1.8.5 nothing works I guess (however commands are echoed on serial)
+
+Command to switch on the light:         46 43 16 12 00 01 F1 2B 26
+Command to switch off the light:        46 43 16 12 00 01 F0 3B 07
+Show firmware version:                  46 43 11 14 00 00 EA FB
+Show UART version:                      46 43 11 15 00 00 DD CB
+Show hardware version:                  46 43 11 18 00 00 9F 9A
+Show some weird id:                     46 43 11 20 00 00 F3 9E
+Blink front light:                      46 43 16 13 00 01 F1 5D 92
+Lock motor wheel:                       46 43 16 63 00 01 F1 1F E7
+Unlock motor wheel:                     46 43 16 63 00 01 F0 0F C6
+This code enables the scooter:          46 43 16 61 00 01 F1 F2 8F
+This code disables the scooter:         46 43 16 61 00 01 F0 E2 AE
+
