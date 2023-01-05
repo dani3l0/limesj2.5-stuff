@@ -3,6 +3,8 @@
 Here's some stuff I managed to do with scooter controller. Finally, I haven't turned it on...
 But I'm sharing this as it might help someone.
 
+Firmware version I was working on: `LIS01_FW_1.8.5_201911162121000`
+
 
 ### Brute force commands
 
@@ -22,11 +24,15 @@ To change bruteforced bytes, please edit `main.py`.
 
 ### Firmware
 
-In `fw` dir I've uploaded dumped firmware (I guess) and disassembled ASM file.
+In `fw` dir I've uploaded dumped firmware and disassembled analysis.
 Do with it whatever you want, I'm sick of it.
 
+Disassembled with: `GHidra 10.2.2 on Linux`
+Disassemble language: `ARM:LE:32:Cortex:default`
 
 
 ### What works?
 
 Nothing. Maybe except led blinking which can't be turned off later xD
+
+In `cmds.txt` there are _valid_ commands which get echoed, but actually do nothing.
