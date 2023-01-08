@@ -8,6 +8,8 @@ Firmware version I was working on: `LIS01_FW_1.8.5_201911162121000`
 
 ### Brute force commands
 
+**Note: updated the script and now it works**. My mistake that I haven't uploaded the right file since I had many of them.
+
 There's a `main.py` script to bruteforce some commands sent to controller via Serial interface.
 
 ```
@@ -19,6 +21,8 @@ python3 main.py
 ```
 
 To change bruteforced bytes, please edit `main.py`.
+
+Script automatically saves found commands to `combinations.txt`.
 
 
 
