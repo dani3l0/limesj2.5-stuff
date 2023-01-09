@@ -97,10 +97,8 @@ async def watch():
 # Brute force ranges for [a, b, c].
 # 255 means 0 to 255 (0x00 to 0xFF) numbers to be checked. 0 means no brute-forcing for specified variable. 1 means brute-forcing 0 and 1
 # You can pass hex values too, like this:
-# loops = [0xFF, 0x01, 0x00] # same as below
-loops = [255, 3, 7, 3]
-
-ee = [0x00, 0xF0, 0xF1, 0xFF]
+# loops = [0xFF, 0x01, 0x00, 0x00] # same as below
+loops = [255, 1, 0, 0]
 
 # Just for progress calculation
 brutes = [x + 1 for x in loops]
@@ -121,7 +119,7 @@ async def bruteforce():
                     # this bruteforces all commands with 0-1 values
                     # NOTE: do not include the last two bytes (CRC checksum) as it is automatically calculated
 
-                    message = [0x46, 0x43, 0x16, a, c, d, ee[b]]
+                    message = [0x46, 0x43, 0x16, a, 0x00, 0x01, b + 0xF0]
 
 
                     # Send command and show progress, nothing interesting
@@ -150,3 +148,4 @@ async def main():
     )
 
 asyncio.run(main())
+
