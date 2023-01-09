@@ -20,7 +20,9 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-To change bruteforced bytes, please edit `main.py`.
+**New:** `mainX.py` is a 5x faster version than `main.py`, but might be less reliable.
+
+To change bruteforced bytes, please edit `.py` file you're using.
 
 Script automatically saves found commands to `combinations.txt`.
 
