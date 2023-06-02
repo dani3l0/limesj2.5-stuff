@@ -22,10 +22,6 @@ ser = serial.Serial(
 )
 
 
-def mkNiceHex(integer) -> str:
-    return str(hex(f[i])).replace("0x", "")
-
-
 # Target command length, you can edit this as well
 test_length = 9
 
