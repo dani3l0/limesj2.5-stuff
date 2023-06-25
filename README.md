@@ -32,3 +32,5 @@ Firmware versions I was working on:
 ## What works?
 
 Nothing. Maybe except led blinking which can't be turned off later xD
+
+**UPDATE:** I've managed to turn on the scooter twice, for more info see [logs](logs)

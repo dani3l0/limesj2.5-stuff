@@ -23,3 +23,8 @@ Those are all read commands sent to controller by green GPS box.
 <img src="our_command.jpg">
 
 This is a selected log part when scooter activation happens. Turn-on command is quite long here and seems to change under some conditions
+
+
+## Quick note
+
+I've turned the scooter twice successfully, but after sending the whole command sequence. But after those two times, it stopped to work.
