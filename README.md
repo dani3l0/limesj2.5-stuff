@@ -34,3 +34,7 @@ Firmware versions I was working on:
 Nothing. Maybe except led blinking which can't be turned off later xD
 
 **UPDATE:** I've managed to turn on the scooter twice, for more info see [logs](logs)
+
+## Special thanks
+
+[Balazs Vak](mailto:vakbalazs@gmail.com) for contacting me and offering help, as well as providing a bunch of useful information and reversing results. All Balazs' work is available under `reversing` directory
