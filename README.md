@@ -44,3 +44,8 @@ According to how long the turn-on command is, I'm assuming the controller genera
 ## Special thanks
 
 [Balazs Vak](mailto:vakbalazs@gmail.com) for contacting me and offering help, as well as providing a bunch of useful information and reversing results. All Balazs' work is available under `reversing` directory
+
+
+## FAQ
+
+Before contacting us, please read [FAQs](FAQ). This README contains repeating questions asked by different people. 
